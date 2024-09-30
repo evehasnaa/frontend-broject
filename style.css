@@ -6,10 +6,13 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-    background-color: rgba(0, 0, 0, 0.11);
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    background-color: #141414;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .container{
     background-color:#333333d8 ;
@@ -29,19 +32,23 @@ body{
     
 }
 .info h1{
-    font-size: 25px;
+    font-size: 0.7em;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 2px;
     
 
 }
 .info h2{
-    font-size: 16px;
+    font-size: 0.7em;
     margin-bottom: 10px;
-    color:rgba(172, 255, 47, 0.377);
+    color: #c4f82a;
 }
 
 .info p{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
+    color: #fff;
 }
 img{
     border-radius: 50px ;
@@ -76,8 +83,10 @@ ul li :first-child
 
 ul li :first-child:hover
 {
-    background-color:rgba(172, 255, 47, 0.377);
+    background-color: #c4f82a;
     cursor: pointer;
+    transition: 0.5s ease-out;
+    color: #141414;
     
 }
 ul li .one{
